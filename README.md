@@ -2,7 +2,9 @@
 
 This is the unofficial TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
 
-To use this template, clone this repository and run `npx create-react-app my-app --template file:../path/to/this/template` to initialize an application
+To use this template, clone this repository and run one of the following commands to initialize an application
+- **NPM:** `npx create-react-app your-app-name --template file:./path/to/cra-template-craco-typescript`
+- **YARN:** `yarn create react-app your-app-name --template file:./path/to/cra-template-craco-typescript` 
 
 For more information, please refer to:
 
