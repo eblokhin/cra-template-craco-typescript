@@ -1,0 +1,30 @@
+{
+  "name": "cra-template-craco-typescript",
+  "version": "1.0.0",
+  "description": "CRA template with craco, typescript and tailwind configurations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eblokhin/cra-template-craco-typescript.git"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "typescript",
+    "tailwind",
+    "template",
+    "craco"
+  ],
+  "author": "Eugene Blokhin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "bugs": {
+    "url": "https://github.com/eblokhin/cra-template-craco-typescript/issues"
+  },
+  "homepage": "https://github.com/eblokhin/cra-template-craco-typescript#readme"
+}

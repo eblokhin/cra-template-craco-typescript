@@ -1,0 +1,59 @@
+{
+  "package": {
+    "dependencies": {
+      "classnames": "^2.3.1",
+      "web-vitals": "^1.0.1",
+      "@craco/craco": "^6.4.0",
+      "@testing-library/jest-dom": "^5.14.1",
+      "@testing-library/react": "^12.0.0",
+      "@testing-library/user-event": "^13.2.1",
+      "@types/jest": "^27.0.1",
+      "@types/node": "^16.7.13",
+      "@types/react": "^17.0.20",
+      "@types/react-dom": "^17.0.9",
+      "@typescript-eslint/parser": "^5.4.0",
+      "autoprefixer": "^9",
+      "eslint": "^7.32",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-prettier": "^4.0.0",
+      "postcss": "^7",
+      "prettier": "^2.4.1",
+      "react-scripts": "^4.0.3",
+      "sass": "^1.43.4",
+      "source-map-explorer": "^2.5.2",
+      "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+      "typescript": "^4.4.2"
+    },
+    "resolutions": {
+      "eslint": "^7.32"
+    },
+    "browserslist": {
+      "production": [
+        "last 2 chrome version",
+        "last 2 firefox version",
+        "last 2 safari version",
+        "last 2 edge version"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "scripts": {
+      "start": "craco start",
+      "build": "craco build",
+      "test": "craco test",
+      "eject": "react-scripts eject",
+      "analyze": "source-map-explorer 'build/static/js/*.js'",
+      "eslint": "yarn run eslint:check --fix",
+      "eslint:check": "eslint ./src --ext .js,.jsx,.mjs,.ts,.tsx"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    }
+  }
+}

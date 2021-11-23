@@ -1,0 +1,24 @@
+.container
+  @apply text-center
+
+.logo
+  @apply pointer-events-none
+  height: 40vmin
+
+@media (prefers-reduced-motion: no-preference)
+  .logo
+    animation: App-logo-spin infinite 20s linear
+
+.header
+  min-height: 100vh
+  @apply flex bg-main flex-col items-center justify-center text-white
+  font-size: calc(10px + 2vmin)
+
+.link
+  @apply text-link
+
+@keyframes App-logo-spin
+  from
+    transform: rotate(0deg)
+  to
+    transform: rotate(360deg)
